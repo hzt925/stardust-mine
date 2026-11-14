@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#05070f">
+<title>隐私政策 · 星尘矿枢</title>
+<style>
+  :root{
+    --bg:#05070f; --panel:rgba(9,22,38,.72); --line:rgba(34,211,238,.22);
+    --line-strong:rgba(34,211,238,.55); --txt:#d6f4ff; --dim:#6f93a8;
+    --cyan:#22d3ee; --ice:#7dd3fc;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--txt);
+    font:15px/1.85 -apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    -webkit-text-size-adjust:100%}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:
+      radial-gradient(1px 1px at 12% 18%,rgba(255,255,255,.75),transparent 60%),
+      radial-gradient(1px 1px at 78% 12%,rgba(255,255,255,.6),transparent 60%),
+      radial-gradient(1px 1px at 34% 62%,rgba(255,255,255,.55),transparent 60%),
+      radial-gradient(1px 1px at 88% 74%,rgba(255,255,255,.7),transparent 60%),
+      radial-gradient(1px 1px at 56% 88%,rgba(255,255,255,.5),transparent 60%),
+      radial-gradient(1px 1px at 22% 94%,rgba(255,255,255,.45),transparent 60%),
+      radial-gradient(circle at 70% 8%,rgba(34,211,238,.10),transparent 45%),
+      radial-gradient(circle at 12% 80%,rgba(124,58,237,.08),transparent 50%);
+  }
+  .wrap{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:28px 20px 64px}
+  header{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:26px}
+  .brand{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.18em;
+    color:var(--cyan);text-transform:uppercase}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);
+    box-shadow:0 0 10px var(--cyan)}
+  h1{font-size:27px;margin:12px 0 6px;letter-spacing:.04em}
+  .sub{color:var(--dim);font-size:13px}
+  h2{font-size:17px;margin:34px 0 10px;padding-left:11px;border-left:3px solid var(--cyan);
+    color:var(--ice);letter-spacing:.02em}
+  p,li{color:#c8e6f5}
+  ul{padding-left:22px}
+  li{margin:5px 0}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:16px 18px;margin:16px 0;backdrop-filter:blur(8px)}
+  .card b{color:var(--ice)}
+  .hl{color:#7dd3fc;font-weight:600}
+  .ok{color:#4ade80;font-weight:600}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid rgba(34,211,238,.14);
+    vertical-align:top}
+  th{color:var(--ice);font-weight:600;font-size:13px;letter-spacing:.05em}
+  code{background:rgba(34,211,238,.10);border:1px solid var(--line);border-radius:5px;
+    padding:1px 6px;font-size:13px;color:#a5f3fc}
+  footer{margin-top:46px;padding-top:18px;border-top:1px solid var(--line);
+    color:var(--dim);font-size:12.5px;line-height:1.9}
+  a{color:var(--cyan);text-decoration:none;border-bottom:1px dashed rgba(34,211,238,.45)}
+  @media(max-width:520px){h1{font-size:23px}.wrap{padding:22px 16px 52px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand"><span class="dot"></span>STARDUST MINE · PRIVACY</div>
+    <h1>星尘矿枢 隐私政策</h1>
+    <div class="sub">版本 1.9.0 ｜ 生效日期：2026 年 11 月 15 日 ｜ 最后更新：2026 年 11 月 15 日</div>
+  </header>
+
+  <div class="card">
+    <b>一句话说明：</b>《星尘矿枢》是一款<span class="ok">完全离线运行的单机游戏</span>，
+    我们没有服务器，<span class="hl">不收集、不上传、不共享你的任何个人信息</span>，
+    游戏进度只保存在你自己的设备里。
+  </div>
+
+  <h2>一、适用范围</h2>
+  <p>本政策适用于《星尘矿枢》游戏本体（Android 安装包、网页版及各平台发布版本）。
+     本游戏由个人开发者【开发者名称】开发与运营（下称"我们"）。</p>
+
+  <h2>二、我们收集哪些信息</h2>
+  <p><span class="ok">我们不收集任何个人信息。</span>具体而言，本游戏：</p>
+  <ul>
+    <li>不要求注册账号，不收集姓名、手机号、邮箱、身份证等身份信息；</li>
+    <li>不申请任何系统权限（Android 安装包清单中没有任何 <code>uses-permission</code> 声明），
+        包括但不限于网络、存储、位置、通讯录、相机、麦克风、电话状态；</li>
+    <li>不获取设备标识符（IMEI、Android ID、OAID、MAC 等）或广告标识；</li>
+    <li>不读取剪贴板、相册、通讯录、短信、已安装应用列表；</li>
+    <li>不使用埋点、崩溃上报、统计分析或任何广告 SDK。</li>
+  </ul>
+
+  <h2>三、本地存档数据</h2>
+  <p>游戏为保存进度，会使用浏览器 WebView 提供的 <code>localStorage</code> 在本机存储以下游戏内数据：</p>
+  <table>
+    <tr><th>数据</th><th>内容</th></tr>
+    <tr><td>游戏进度</td><td>星尘、原矿、等离子、反物质、各设施等级、飞升次数与增益、成就与里程碑、挑战印记、星图收集、离线日志</td></tr>
+    <tr><td>本地设置</td><td>特效档位、音效开关、数字格式、配色主题、新手引导完成标记</td></tr>
+  </table>
+  <p>以上数据<span class="hl">仅存储于本机</span>，不会离开你的设备，我们无法读取。</p>
+  <ul>
+    <li><b>删除方式：</b>在游戏内「设置 → 重置存档/清除数据」，或清除应用数据、卸载游戏即可彻底删除。</li>
+    <li><b>导出/导入：</b>由你主动操作，导出的存档文本会显示在你自己的屏幕上，
+        去向由你决定（例如保存到自己的文件或发送给你自己），我们不接收该数据。</li>
+  </ul>
+
+  <h2>四、网络与第三方服务</h2>
+  <p><span class="ok">游戏运行过程中不发起任何网络请求</span>，所有画面、音效均由本地资源实时生成。
+     本游戏<span class="hl">未集成任何第三方 SDK</span>（无广告、无统计、无登录、无支付、无推送）。</p>
+  <p>若你通过应用商店、社交平台下载或讨论本游戏，这些平台会依据其自身隐私政策处理你的信息，
+     该过程与本游戏无关，我们亦无法获取其数据。</p>
+
+  <h2>五、儿童隐私</h2>
+  <p>本游戏不含社交、聊天、付费与广告功能，不收集任何用户信息，因此不存在针对儿童的定向收集行为。
+     若未成年人在监护人指导下游玩，其游戏进度同样只保存在本机。</p>
+
+  <h2>六、数据安全</h2>
+  <p>由于我们不收集也不传输数据，不存在服务器侧的数据泄露风险。
+     本机存档的安全性取决于你的设备本身（如设备是否设置了锁屏密码）。</p>
+
+  <h2>七、你的权利</h2>
+  <ul>
+    <li><b>知情权：</b>本政策完整说明了数据处理方式；</li>
+    <li><b>删除权：</b>随时可在游戏内重置存档或卸载游戏，彻底清除全部本地数据；</li>
+    <li><b>拒绝权：</b>本游戏不强制任何数据授权，拒绝即无需授权。</li>
+  </ul>
+
+  <h2>八、政策变更</h2>
+  <p>若未来版本新增联网功能（例如云存档），我们会在更新前修订本政策，
+     并在游戏内与发布页面显著位置提示。继续使用即视为接受更新后的政策。</p>
+
+  <h2>九、联系我们</h2>
+  <p>对本政策有任何疑问、意见或投诉，可通过以下方式联系开发者：</p>
+  <ul>
+    <li>邮箱：【联系邮箱】</li>
+    <li>其他反馈渠道：游戏内「关于」页所列的反馈方式</li>
+  </ul>
+  <p>我们会在 15 个工作日内答复。</p>
+
+  <footer>
+    《星尘矿枢》Stardust Mine ｜ 版本 1.9.0 ｜ 本页面为游戏的隐私政策说明页。<br>
+    本政策自 2026 年 11 月 15 日起生效。
+  </footer>
+
+</div>
+</body>
+</html>
